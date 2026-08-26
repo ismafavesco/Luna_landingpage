@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Cinzel";
+  src: url("/fonts/Cinzel.ttf") format("truetype");
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("/fonts/Jost.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  scroll-behavior: smooth;
+}
+.backgroundGrid {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -9;
+  background-size: 50px 50px;
+  background-image: linear-gradient(
+      rgba(200, 200, 200, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, rgba(200, 200, 200, 0.1) 1px, transparent 1px);
+}
+[data-theme="dark"] .backgroundGrid {
+  background-image: linear-gradient(
+      rgba(200, 200, 200, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, rgba(200, 200, 200, 0.03) 1px, transparent 1px);
+}

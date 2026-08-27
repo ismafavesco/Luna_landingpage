@@ -59,28 +59,24 @@ function AppBanner() {
               transition={{ delay: 0.8 }}
               className="list-none flex gap-4 my-6 p-0 w-full"
             >
-              {googlePlayLink && (
-                <li className="m-0 p-0">
-                  <a href={googlePlayLink}>
-                    <img
-                      className="h-14"
-                      alt="google play logo"
-                      src="/stores/google-play.svg"
-                    />
-                  </a>
-                </li>
-              )}
-              {appStoreLink && (
-                <li className="m-0 p-0">
-                  <a href={appStoreLink}>
-                    <img
-                      className="h-14"
-                      alt="app store logo"
-                      src="/stores/app-store.svg"
-                    />
-                  </a>
-                </li>
-              )}
+              <li className="m-0 p-0">
+                <a href={googlePlayLink || "#lista"}>
+                  <img
+                    className="h-14"
+                    alt="Google Play"
+                    src="/stores/google-play.svg"
+                  />
+                </a>
+              </li>
+              <li className="m-0 p-0">
+                <a href={appStoreLink || "#lista"}>
+                  <img
+                    className="h-14"
+                    alt="App Store"
+                    src="/stores/app-store.svg"
+                  />
+                </a>
+              </li>
             </motion.ul>
           </div>
           <motion.div

@@ -10,6 +10,7 @@ import Faq from "./_components/faq";
 import HowItWorks from "./_components/howItWorks";
 import Pricing from "./_components/pricing";
 import Testimonials from "./_components/testimonials";
+import Waitlist from "./_components/waitlist";
 
 interface Props {
   config: TemplateConfig;
@@ -27,6 +28,7 @@ function Home({ config }: Props) {
         <Pricing />
         <Testimonials />
         <Faq />
+        <Waitlist />
         <AppBanner />
         <Footer />
       </main>

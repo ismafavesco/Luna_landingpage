@@ -78,7 +78,7 @@ function Navbar() {
             ))}
           </ul>
           {topNavbar.cta && (
-            <a href="/app" className="ml-3 btn btn-primary btn-outline py-4">
+            <a href="#lista" className="ml-3 btn btn-primary btn-outline py-4">
               {topNavbar.cta}
             </a>
           )}
@@ -109,20 +109,22 @@ function Navbar() {
           }}
           className="menu menu-horizontal justify-center py-0 px-1"
         >
-          {googlePlayLink && (
-            <li className="mb-2">
-              <a href={googlePlayLink} target="_blank">
-                <img className="h-14" src="/stores/google-play.svg" />
-              </a>
-            </li>
-          )}
-          {appStoreLink && (
-            <li className="mb-2">
-              <a href={appStoreLink} target="_blank">
-                <img className="h-14" src="/stores/app-store.svg" />
-              </a>
-            </li>
-          )}
+          <li className="mb-2">
+            <a
+              href={googlePlayLink || "#lista"}
+              target={googlePlayLink ? "_blank" : undefined}
+            >
+              <img className="h-14" alt="Google Play" src="/stores/google-play.svg" />
+            </a>
+          </li>
+          <li className="mb-2">
+            <a
+              href={appStoreLink || "#lista"}
+              target={appStoreLink ? "_blank" : undefined}
+            >
+              <img className="h-14" alt="App Store" src="/stores/app-store.svg" />
+            </a>
+          </li>
         </motion.ul>
       </AnimatedList>
     </motion.nav>

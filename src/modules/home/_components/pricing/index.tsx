@@ -4,11 +4,7 @@ import { motion } from "framer-motion";
 import { useContext } from "react";
 import { ConfigContext } from "../../../../utils/configContext";
 
-const planImages = [
-  "/misc/wallet-front-color.webp",
-  "/misc/money-front-color.webp",
-  "/misc/locker-front-color.webp",
-];
+const planImages = ["/icons/plan-gratis.svg", "/icons/plan-premium.svg"];
 
 const planBGs = ["bg-primary/80", "bg-secondary/80", "bg-accent/80"];
 
@@ -97,7 +93,7 @@ function Pricing() {
                 {pricing.actionText && (
                   <div className="w-full">
                     <a
-                      href="/app"
+                      href="#lista"
                       className="btn btn-primary btn-square no-animation rounded-none w-full text-lg h-auto py-4"
                     >
                       {index === 0 ? pricing.actionText : "Muy pronto"}

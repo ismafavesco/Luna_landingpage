@@ -21,9 +21,9 @@ const templateConfig: TemplateConfig = {
       privacyPolicy: true,
     },
     socials: {
-      instagram: "https://instagram.com/lunaapp",
-      facebook: "https://facebook.com/lunaapp",
-      twitter: "https://x.com/lunaapp",
+      instagram: "https://instagram.com/lunaconecta",
+      facebook: "https://facebook.com/lunaconecta",
+      twitter: "https://x.com/lunaconecta",
     },
     links: [
       { href: "/#features", title: "Qué ofrece" },
@@ -322,7 +322,7 @@ Podemos actualizar este Aviso de Privacidad. Te notificaremos dentro de la app c
 
 ## Contacto
 
-Para cualquier duda sobre privacidad, escríbenos a soporte@luna.app
+Para cualquier duda sobre privacidad, escríbenos a soporte@luna-conecta.com
 `,
   },
 
@@ -401,7 +401,7 @@ Podemos actualizar estos términos. Te avisaremos dentro de la app cuando haya m
 
 ## Contacto
 
-Para dudas o reportes, escríbenos a soporte@luna.app
+Para dudas o reportes, escríbenos a soporte@luna-conecta.com
 `,
   },
 
@@ -443,7 +443,7 @@ Podemos actualizar esta política. La fecha de la última actualización siempre
 
 ## Contacto
 
-Para cualquier duda, escríbenos a soporte@luna.app
+Para cualquier duda, escríbenos a soporte@luna-conecta.com
 `,
   },
 };

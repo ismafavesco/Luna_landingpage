@@ -65,7 +65,7 @@ function Footer() {
                 className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
                 href="/terms-and-conditions"
               >
-                Terms & conditions
+                Términos y condiciones
               </motion.a>
             )}
             {legalLinks.privacyPolicy && (
@@ -78,7 +78,7 @@ function Footer() {
                 className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
                 href="/privacy-policy"
               >
-                Privacy policy
+                Aviso de privacidad
               </motion.a>
             )}
             {legalLinks.cookiesPolicy && (
@@ -91,7 +91,7 @@ function Footer() {
                 className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
                 href="/cookies-policy"
               >
-                Cookies policy
+                Política de cookies
               </motion.a>
             )}
           </div>
@@ -108,10 +108,10 @@ function Footer() {
         </aside>
       </motion.div>
       
-      {/* Powered by Favesco Section */}
+      {/* Desarrollado por Favesco Section */}
       <div className="text-center mt-4">
         <span className="bg-gray-800 text-gray-400 rounded-md px-4 sm:px-4 py-1.5  hover:bg-gray-700 transition duration-300 text-xs sm:text-sm inline-block">
-          Powered by{" "}
+          Desarrollado por{" "}
           <a
             href="https://favesco.tech"
             target="_blank"

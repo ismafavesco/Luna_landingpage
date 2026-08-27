@@ -83,25 +83,25 @@ const templateConfig: TemplateConfig = {
           title: "Compatibilidad real",
           subtitle:
             "Un algoritmo que cruza tu carta natal y tu numerología para calcular qué tan compatible eres con cada persona",
-          icon: "/3D/chess-front-color.webp",
+          icon: "/icons/compatibilidad.svg",
         },
         {
           title: "Tu carta natal",
           subtitle:
             "Descubre tu sol, luna, ascendente y tu número de vida. Conócete mejor mientras conoces a alguien más",
-          icon: "/3D/moon-front-color.webp",
+          icon: "/icons/carta-natal.svg",
         },
         {
           title: "Lectura mensual",
           subtitle:
             "Cada mes recibes una lectura astrológica personalizada según tu carta natal",
-          icon: "/3D/magic-trick-front-color.webp",
+          icon: "/icons/lectura-mensual.svg",
         },
         {
           title: "Mensajes diarios",
           subtitle:
             "Un mensaje motivacional cada día, pensado para tu signo y tu momento",
-          icon: "/3D/bulb-front-color.webp",
+          icon: "/icons/mensajes-diarios.svg",
         },
       ],
     },

@@ -58,14 +58,14 @@ function Features() {
             <div className="relative mb-4 mt-4">
               <div
                 className={clsx(
-                  "absolute left-0 right-0 top-0 bottom-0 bg-secondary/50 -z-10 rounded-lg"
+                  "absolute left-0 right-0 top-0 bottom-0 -z-10 rounded-2xl bg-gradient-to-br from-primary/20 via-base-300/40 to-secondary/10 ring-1 ring-primary/20"
                 )}
               />
               <figure className="py-4">
                 <img
                   src={feat.icon}
                   alt="feature icon"
-                  className="w-40 transition-transform group-hover:scale-90"
+                  className="w-36 transition-transform duration-300 group-hover:scale-95"
                 />
               </figure>
             </div>

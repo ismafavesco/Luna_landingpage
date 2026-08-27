@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A0D9F7"/><stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    
+  </defs>
+  <circle cx="100" cy="100" r="86" fill="url(#glow)"/>
+<g stroke="url(#g)" stroke-width="2.2" opacity=".85"><line x1="62" y1="74" x2="78" y2="104"/><line x1="78" y1="104" x2="58" y2="128"/><line x1="62" y1="74" x2="96" y2="92"/><line x1="96" y1="92" x2="120" y2="72"/><line x1="120" y1="72" x2="140" y2="104"/><line x1="140" y1="104" x2="126" y2="134"/><line x1="126" y1="134" x2="104" y2="120"/><line x1="104" y1="120" x2="96" y2="92"/><line x1="78" y1="104" x2="104" y2="120"/></g><circle cx="62" cy="74" r="5" fill="#F5F5FF"/><circle cx="62" cy="74" r="13.0" fill="#A78BFA" opacity=".18"/><circle cx="78" cy="104" r="3.4" fill="#F5F5FF"/><circle cx="78" cy="104" r="8.84" fill="#A78BFA" opacity=".18"/><circle cx="58" cy="128" r="3.4" fill="#F5F5FF"/><circle cx="58" cy="128" r="8.84" fill="#A78BFA" opacity=".18"/><circle cx="96" cy="92" r="3.4" fill="#F5F5FF"/><circle cx="96" cy="92" r="8.84" fill="#A78BFA" opacity=".18"/><circle cx="120" cy="72" r="5" fill="#F5F5FF"/><circle cx="120" cy="72" r="13.0" fill="#A78BFA" opacity=".18"/><circle cx="140" cy="104" r="5" fill="#F5F5FF"/><circle cx="140" cy="104" r="13.0" fill="#A78BFA" opacity=".18"/><circle cx="126" cy="134" r="3.4" fill="#F5F5FF"/><circle cx="126" cy="134" r="8.84" fill="#A78BFA" opacity=".18"/><circle cx="104" cy="120" r="3.4" fill="#F5F5FF"/><circle cx="104" cy="120" r="8.84" fill="#A78BFA" opacity=".18"/><circle cx="100" cy="100" r="74" stroke="#8B5CF6" stroke-width="3" stroke-dasharray="330 130" stroke-linecap="round" opacity=".9" transform="rotate(-90 100 100)"/><path d="M150 49 Q151.62 56.38 159 58 Q151.62 59.62 150 67 Q148.38 59.62 141 58 Q148.38 56.38 150 49 Z" fill="#F5F5FF" opacity="1"/><path d="M52 143 Q53.26 148.74 59 150 Q53.26 151.26 52 157 Q50.74 151.26 45 150 Q50.74 148.74 52 143 Z" fill="#A0D9F7" opacity="1"/>
+</svg>

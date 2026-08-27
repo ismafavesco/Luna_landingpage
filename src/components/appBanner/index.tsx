@@ -35,7 +35,7 @@ function AppBanner() {
           duration: 0.2,
         }}
       >
-        <div className="p-4 bg-primary text-primary-content rounded-t-[var(--rounded-box)] flex flex-col items-center md:flex-row">
+        <div className="p-4 bg-[#2D1B69] text-primary-content rounded-t-[var(--rounded-box)] flex flex-col items-center md:flex-row">
           <div className="flex-1 flex flex-col items-center justify-center min-h-full">
             <motion.h2
               initial={{ opacity: 0, y: "-100%" }}

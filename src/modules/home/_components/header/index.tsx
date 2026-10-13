@@ -96,10 +96,11 @@ function Header() {
                   </li>
                 )}
                 {!googlePlayLink && !appStoreLink && (
-                  <li className="m-0 p-0">
-                    <a href="#lista" className="btn btn-primary px-8 no-underline">
+                  <li className="m-0 p-0 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
+                    <a href="/registro" className="btn btn-primary px-8 no-underline">
                       Quiero el link de descarga
                     </a>
+                    <span className="text-sm opacity-60">Muy pronto en iOS y Android</span>
                   </li>
                 )}
               </motion.ul>

@@ -70,7 +70,6 @@ const templateConfig: TemplateConfig = {
         "/screenshots/1.jpg",
       ],
       rewards: ["Compatibilidad \nreal, no al azar", "Carta natal \nincluida"],
-      usersDescription: "Muy pronto en iOS y Android",
       headlineMark: [1, 4],
     },
     features: {

@@ -51,8 +51,8 @@ const templateConfig: TemplateConfig = {
       "Luna calcula tu carta natal y tu perfil numerológico para conectarte con personas realmente compatibles contigo. Muy pronto en iOS y Android.",
     screenshots: [
       "/screenshots/1.jpg",
+      "/screenshots/4.jpg",
       "/screenshots/2.jpg",
-      "/screenshots/3.jpg",
     ],
   },
   home: {
@@ -67,6 +67,7 @@ const templateConfig: TemplateConfig = {
         "Luna usa tu carta natal y tu perfil numerológico para mostrarte solo personas realmente compatibles contigo. Menos swipes al azar, más conexiones que valen la pena.",
       screenshots: [
         "/screenshots/3.jpg",
+        "/screenshots/4.jpg",
         "/screenshots/2.jpg",
         "/screenshots/1.jpg",
       ],

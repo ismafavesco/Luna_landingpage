@@ -21,9 +21,7 @@ const templateConfig: TemplateConfig = {
       privacyPolicy: true,
     },
     socials: {
-      instagram: "https://instagram.com/lunaconecta",
-      facebook: "https://facebook.com/lunaconecta",
-      twitter: "https://x.com/lunaconecta",
+      instagram: "https://instagram.com/app.luna",
     },
     links: [
       { href: "/#features", title: "Qué ofrece" },

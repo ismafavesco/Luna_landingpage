@@ -83,12 +83,12 @@ function WaitlistForm({ compact = false }: Props) {
           <p className="m-0 mt-1 text-sm opacity-60">
             Mientras tanto, síguenos en{" "}
             <a
-              href="https://instagram.com/lunaconecta"
+              href="https://instagram.com/app.luna"
               target="_blank"
               rel="noreferrer"
               className="underline decoration-primary/60 underline-offset-2"
             >
-              @lunaconecta
+              @app.luna
             </a>
             .
           </p>

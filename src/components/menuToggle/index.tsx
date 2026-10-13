@@ -8,7 +8,7 @@ interface Props {
 const Path = (props: SVGMotionProps<SVGElement>) => (
   <motion.path
     fill="transparent"
-    strokeWidth="3"
+    strokeWidth="2.2"
     stroke="currentColor"
     strokeLinecap="round"
     {...props}
@@ -16,13 +16,18 @@ const Path = (props: SVGMotionProps<SVGElement>) => (
 );
 
 const MenuToggle = ({ toggle, isOpen }: Props) => (
-  <button onClick={toggle}>
+  <button
+    onClick={toggle}
+    aria-label={isOpen ? "Cerrar menú" : "Abrir menú"}
+    aria-expanded={isOpen}
+    className="flex h-11 w-11 items-center justify-center rounded-xl border border-primary/30 bg-base-200/70 text-base-content transition-colors hover:border-primary/60 active:bg-base-300"
+  >
     <motion.svg
       initial={false}
       animate={isOpen ? "open" : "closed"}
       className="text-base-content"
-      width="23"
-      height="23"
+      width="22"
+      height="22"
       viewBox="0 0 23 23"
     >
       <Path

@@ -75,7 +75,7 @@ function Testimonials() {
                   {/* Quote mark and Comment */}
                   <div className="relative flex-grow">
                     <span className="absolute -left-1 -top-3 text-primary text-4xl font-sketch opacity-30">"</span>
-                    <p className="text-[#292929] line-clamp-5 relative z-10 pl-2">
+                    <p className="text-base-content/85 line-clamp-5 relative z-10 pl-2">
                       {comment}
                     </p>
                   </div>

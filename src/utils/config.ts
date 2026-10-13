@@ -66,7 +66,6 @@ const templateConfig: TemplateConfig = {
       subtitle:
         "Luna usa tu carta natal y tu perfil numerológico para mostrarte solo personas realmente compatibles contigo. Menos swipes al azar, más conexiones que valen la pena.",
       screenshots: [
-        "/screenshots/3.jpg",
         "/screenshots/4.jpg",
         "/screenshots/2.jpg",
         "/screenshots/1.jpg",

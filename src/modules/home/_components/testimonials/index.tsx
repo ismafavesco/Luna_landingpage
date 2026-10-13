@@ -44,16 +44,16 @@ function Testimonials() {
         >
           {testimonials.cards.map(({ name, comment }, index) => (
             <SwiperSlide className="!h-[22rem] my-2" key={index}>
-              <div className="h-full p-6 rounded-2xl bg-[#E7F1EA] hover:bg-[#c7f9cc] transition-colors duration-300">
+              <div className="h-full p-6 rounded-2xl bg-base-200 hover:bg-base-300 border border-primary/20 transition-colors duration-300">
                 <div className="flex flex-col h-full">
                   {/* Profile Picture */}
                   <div className="flex items-center gap-4 mb-4">
                     <img 
                       src={`/avatars/${index + 1}.webp`} 
                       alt={name}
-                      className="w-12 h-12 rounded-full object-cover border-2 border-[#26342D]"
+                      className="w-12 h-12 rounded-full object-cover border-2 border-primary/40"
                     />
-                    <h3 className="text-[#26342D] font-bold text-lg">
+                    <h3 className="text-base-content font-sketch italic text-lg">
                       {name}
                     </h3>
                   </div>
@@ -63,7 +63,7 @@ function Testimonials() {
                     {Array(5).fill(0).map((_, i) => (
                       <svg 
                         key={i} 
-                        className="w-5 h-5 text-[#26342D]" 
+                        className="w-5 h-5 text-primary" 
                         fill="currentColor" 
                         viewBox="0 0 20 20"
                       >
@@ -74,7 +74,7 @@ function Testimonials() {
 
                   {/* Quote mark and Comment */}
                   <div className="relative flex-grow">
-                    <span className="absolute -left-1 -top-3 text-[#26342D] text-4xl font-bold opacity-20">"</span>
+                    <span className="absolute -left-1 -top-3 text-primary text-4xl font-sketch opacity-30">"</span>
                     <p className="text-[#292929] line-clamp-5 relative z-10 pl-2">
                       {comment}
                     </p>

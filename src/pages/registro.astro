@@ -1,0 +1,18 @@
+---
+import RegistroPage from "@modules/registro";
+import Layout from "Layout.astro";
+import defaultTemplateConfig from "utils/config";
+
+const config = {
+  ...defaultTemplateConfig,
+  seo: {
+    title: "Luna — Pre-registro",
+    description:
+      "Regístrate con tu WhatsApp o correo y recibe el link de descarga de Luna el día del lanzamiento.",
+  },
+};
+---
+
+<Layout {...config}>
+  <RegistroPage client:load config={config} />
+</Layout>

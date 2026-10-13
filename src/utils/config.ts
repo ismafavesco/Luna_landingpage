@@ -33,7 +33,7 @@ const templateConfig: TemplateConfig = {
     ],
   },
   topNavbar: {
-    cta: "Únete a la lista",
+    cta: "Pre-regístrate",
     disableWidthAnimation: false,
     hideAppStore: false,
     hideGooglePlay: false,

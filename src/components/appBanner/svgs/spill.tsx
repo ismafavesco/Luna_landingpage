@@ -7,12 +7,12 @@ function Spill({ className }: Props) {
     <svg className={className} viewBox="0 0 325 79">
       <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ssspill-grad">
-        <stop stopColor="#2D1B69" stopOpacity="1" offset="45%" /> {/* Deep Purple */}
-        <stop stopColor="#1A1140" stopOpacity="1" offset="100%" /> {/* Fade to bg */}
+        <stop stopColor="#253559" stopOpacity="1" offset="45%" /> {/* Medianoche */}
+        <stop stopColor="#141F38" stopOpacity="1" offset="100%" /> {/* Índigo */}
         </linearGradient>
       </defs>
       <g fill="url(#ssspill-grad)">
-        <rect width="100%" height="40" fill="#2D1B69" />
+        <rect width="100%" height="40" fill="#253559" />
 
         <rect x="0" width="7.69%" height="60" rx="15" />
         <rect x="50" width="7.69%" height="76" rx="15" />

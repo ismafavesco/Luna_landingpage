@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 56" fill="none">
-  <rect x="1" y="1" width="178" height="54" rx="12" fill="#14142E" stroke="#8B5CF6" stroke-opacity=".45" stroke-width="1.5"/>
-  <g transform="translate(20,13) scale(0.95)"><path fill="#A0D9F7" d="M1.6.6C1.2 1 1 1.6 1 2.4v19.2c0 .8.2 1.4.6 1.8l.1.1L12.4 12.9v-.2L1.7.5z"/><path fill="#8B5CF6" d="M16 16.5l-3.6-3.6v-.2L16 9.1l.1.1 4.3 2.4c1.2.7 1.2 1.8 0 2.5L16 16.5z"/><path fill="#A78BFA" d="M16.1 16.4L12.4 12.7 1.6 23.5c.4.4 1 .5 1.8.1l12.7-7.2"/><path fill="#F5F5FF" d="M16.1 8.9L3.4 1.7C2.6 1.3 2 1.3 1.6 1.8l10.8 10.9 3.7-3.8z"/></g>
-  <text x="62" y="24" font-family="Jost, Helvetica, Arial, sans-serif" font-size="10.5" fill="#B9BCD9">Muy pronto en</text>
-  <text x="62" y="41" font-family="Jost, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#F5F5FF">Google Play</text>
+  <rect x="1" y="1" width="178" height="54" rx="8" fill="#141F38" stroke="#4A5C86" stroke-width="1.5"/>
+  <g transform="translate(20,13) scale(0.95)"><path fill="#6E86B8" d="M1.6.6C1.2 1 1 1.6 1 2.4v19.2c0 .8.2 1.4.6 1.8l.1.1L12.4 12.9v-.2L1.7.5z"/><path fill="#4A5C86" d="M16 16.5l-3.6-3.6v-.2L16 9.1l.1.1 4.3 2.4c1.2.7 1.2 1.8 0 2.5L16 16.5z"/><path fill="#6E86B8" d="M16.1 16.4L12.4 12.7 1.6 23.5c.4.4 1 .5 1.8.1l12.7-7.2"/><path fill="#FAEFEE" d="M16.1 8.9L3.4 1.7C2.6 1.3 2 1.3 1.6 1.8l10.8 10.9 3.7-3.8z"/></g>
+  <text x="62" y="24" font-family="Inter, Helvetica, Arial, sans-serif" font-size="10" fill="#6E86B8">Muy pronto en</text>
+  <text x="62" y="41" font-family="Inter, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#FAEFEE">Google Play</text>
 </svg>

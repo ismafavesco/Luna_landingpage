@@ -55,7 +55,7 @@ function Navbar() {
           <a href="/" className="flex items-center">
         {/*UNCOMMENT WITH LOGO NORMAL */}
               <img className="h-10 md:h-12" src={logo} alt="logo" />
-            <span className="font-bold mx-1  text-2xl">{name}</span>
+            <span className="font-sketch italic mx-2 text-3xl tracking-wide">{name}</span>
           </a>
         </div>
         <div className="navbar-end md:hidden">

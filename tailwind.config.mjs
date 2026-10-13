@@ -12,8 +12,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        sketch: ["Cinzel", ...defaultTheme.fontFamily.serif],
-        sans: ["Jost", ...defaultTheme.fontFamily.sans],
+        // Fraunces: títulos, logotipo y momentos especiales
+        sketch: ["Fraunces", ...defaultTheme.fontFamily.serif],
+        // Inter: cuerpo de texto, interfaz y datos
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       animation: {
         "meteor-effect": "meteor 5s linear infinite",
@@ -36,24 +38,24 @@ export default {
       {
         luna: {
           ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
-          "primary": "#8B5CF6",            // Mystic Violet
-          "primary-content": "#F5F5FF",    // Star White on violet
-          "secondary": "#A0D9F7",          // Sky Blue
-          "secondary-content": "#0C0C20",  // Cosmic Navy on sky blue
-          "accent": "#A78BFA",             // Soft Violet
-          "accent-content": "#0C0C20",
-          "neutral": "#1B1B3A",            // deep indigo surface
-          "neutral-content": "#D7D9F0",
-          "base-100": "#0C0C20",           // Cosmic Navy background
-          "base-200": "#14142E",
-          "base-300": "#1F1B45",
-          "base-content": "#EDEEFA",       // light text
-          "info": "#A0D9F7",
-          "success": "#7DD3A8",
-          "warning": "#F5C542",
-          "error": "#F87189",
+          "primary": "#6E86B8",            // Azul astral
+          "primary-content": "#0A0F1C",    // Noche sobre azul astral
+          "secondary": "#4A5C86",          // Lapislázuli
+          "secondary-content": "#FAEFEE",  // Hueso
+          "accent": "#FAEFEE",             // Hueso
+          "accent-content": "#0A0F1C",
+          "neutral": "#253559",            // Medianoche
+          "neutral-content": "#FAEFEE",
+          "base-100": "#0A0F1C",           // Noche — fondo principal
+          "base-200": "#141F38",           // Índigo
+          "base-300": "#253559",           // Medianoche
+          "base-content": "#FAEFEE",       // Hueso — texto
+          "info": "#6E86B8",
+          "success": "#7FA88C",
+          "warning": "#D9B382",
+          "error": "#C97B7B",
           "--rounded-box": "1rem",
-          "--rounded-btn": "0.75rem",
+          "--rounded-btn": "0.5rem",
         },
       },
     ],

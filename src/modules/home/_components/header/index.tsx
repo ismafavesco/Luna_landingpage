@@ -26,7 +26,7 @@ function Header() {
               <motion.h2
                 initial={{ opacity: 0, rotateZ: -10 }}
                 animate={{ opacity: 1, rotateZ: 0 }}
-                className="mt-0 mb-4 text-4xl md:text-6xl"
+                className="mt-0 mb-4 text-4xl md:text-6xl font-sketch"
               >
                 {header.headlineMark ? (
                   <>
@@ -92,6 +92,13 @@ function Header() {
                         alt="app store logo"
                         src="/stores/app-store.svg"
                       />
+                    </a>
+                  </li>
+                )}
+                {!googlePlayLink && !appStoreLink && (
+                  <li className="m-0 p-0">
+                    <a href="#lista" className="btn btn-primary px-8 no-underline">
+                      Quiero el link de descarga
                     </a>
                   </li>
                 )}

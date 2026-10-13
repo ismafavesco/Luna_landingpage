@@ -70,7 +70,7 @@ function Features() {
               </figure>
             </div>
             <div className="w-full pt-0 px-0 card-body items-center text-center transition-transform max-w-none group-hover:scale-95">
-              <h2 className="card-title text-2xl font-bold">{feat.title}</h2>
+              <h2 className="card-title text-2xl font-sketch">{feat.title}</h2>
               <div className="h-0.5 w-full bg-primary/10" />
               <p className="opacity-[.7]">{feat.subtitle}</p>
             </div>

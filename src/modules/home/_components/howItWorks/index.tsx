@@ -42,7 +42,7 @@ function HowItWorks() {
             whileInView="visible"
             viewport={{ once: true, amount: 0.4 }}
             className={clsx(
-              "text-primary relative flex flex-col rounded-md md:flex-row",
+              "text-base-content relative flex flex-col rounded-md md:flex-row",
               {
                 "md:flex-row-reverse": index % 2 === 0,
               }
@@ -93,8 +93,8 @@ function HowItWorks() {
                 {index < 10 && 0}
                 {index + 1}
               </div>
-              <h4 className="mt-0 text-2xl font-sketch">{step.title}</h4>
-              <p className="mx-auto max-w-sm opacity-[.7]">{step.subtitle}</p>
+              <h4 className="mt-0 text-2xl font-sketch text-base-content">{step.title}</h4>
+              <p className="mx-auto max-w-sm text-base-content/80">{step.subtitle}</p>
             </motion.div>
             <motion.div
               variants={{

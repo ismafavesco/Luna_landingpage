@@ -28,6 +28,7 @@ const templateConfig: TemplateConfig = {
       { href: "/#how-it-works", title: "Cómo funciona" },
       { href: "/#pricing", title: "Planes" },
       { href: "/#faq", title: "Preguntas" },
+      { href: "/registro", title: "Pre-registro" },
     ],
   },
   topNavbar: {
@@ -40,6 +41,7 @@ const templateConfig: TemplateConfig = {
       { href: "/#how-it-works", title: "Cómo funciona" },
       { href: "/#pricing", title: "Planes" },
       { href: "/#faq", title: "Preguntas" },
+      { href: "/registro", title: "Pre-registro" },
     ],
   },
   appBanner: {

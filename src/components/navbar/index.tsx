@@ -66,7 +66,7 @@ function Navbar() {
         </div>
         <div className="navbar-end hidden font-semibold md:flex">
           <ul className="flex gap-4 px-1 items-center">
-            {topNavbar.links.map(({ title, href }, index) => (
+            {topNavbar.links.filter((l) => l.href !== "/registro").map(({ title, href }, index) => (
               <li key={index}>
                 <a
                   className="text-sm md:text-base whitespace-nowrap link link-hover"
@@ -78,7 +78,7 @@ function Navbar() {
             ))}
           </ul>
           {topNavbar.cta && (
-            <a href="#lista" className="ml-3 btn btn-primary btn-outline py-4">
+            <a href="/registro" className="ml-3 btn btn-primary py-4 no-underline">
               {topNavbar.cta}
             </a>
           )}
@@ -92,7 +92,7 @@ function Navbar() {
         {topNavbar.links.map(({ title, href }, index) => (
           <motion.a
             key={index}
-            className="btn btn-ghost w-full text-lg py-4" // Larger font and padding for open menu
+            className={href === "/registro" ? "btn btn-primary w-full text-lg py-4 no-underline" : "btn btn-ghost w-full text-lg py-4"}
             href={href}
             variants={{
               show: { x: 0 },
@@ -111,7 +111,7 @@ function Navbar() {
         >
           <li className="mb-2">
             <a
-              href={googlePlayLink || "#lista"}
+              href={googlePlayLink || "/registro"}
               target={googlePlayLink ? "_blank" : undefined}
             >
               <img className="h-14" alt="Google Play" src="/stores/google-play.svg" />
@@ -119,7 +119,7 @@ function Navbar() {
           </li>
           <li className="mb-2">
             <a
-              href={appStoreLink || "#lista"}
+              href={appStoreLink || "/registro"}
               target={appStoreLink ? "_blank" : undefined}
             >
               <img className="h-14" alt="App Store" src="/stores/app-store.svg" />
